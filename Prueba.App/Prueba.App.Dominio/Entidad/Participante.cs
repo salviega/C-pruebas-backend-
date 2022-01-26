@@ -11,9 +11,7 @@ namespace Prueba.App.Dominio
     public class Participante: Persona
     {
         public override string Id {get;set;}
-
         public override string Name {get;set;}
-
         public override string LastName {get;set;}
         public override int Document {get;set;}
         [BsonElement("respuesta")]

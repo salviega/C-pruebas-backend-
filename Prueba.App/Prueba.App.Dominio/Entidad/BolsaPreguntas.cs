@@ -37,7 +37,7 @@ namespace Prueba.App.Dominio
             return Console.ReadLine();
         }
 
-        public Participante categorias(int nivel, Participante participante)
+        public void categorias(int nivel)
         {
             Dictionary<int, int> valor = new Dictionary<int, int>()
             {
@@ -77,7 +77,7 @@ namespace Prueba.App.Dominio
                     Console.WriteLine("A. " + _OrdenRespuesta[0] + "     B." + _OrdenRespuesta[1]);
                     Console.WriteLine("C. " + _OrdenRespuesta[2] + "     D." + _OrdenRespuesta[3] + " \n");
 
-                    String _Answer = GetStringFromUser("Por favor, digite la letra que corresponda a su respuesta: \n");
+                    String _Answer = GetStringFromUser("Por favor, digite la letra que corresponda a su respuesta: ");
                     int _Answer_ = 0;
 
                     bool x = true;
@@ -130,7 +130,6 @@ namespace Prueba.App.Dominio
                             if(String.Equals(_OrdenRespuesta[_Answer_], Correcta))
                             {
                                 Console.WriteLine("¡Muy bien! Acabas de ganar " + valor[nivel] + " \n");
-                                participante.Money = valor[nivel];
                             }
                         }
                     }

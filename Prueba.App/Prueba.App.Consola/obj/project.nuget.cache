@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rGxp3X004sjEEGQn29KtEMrf5iP8K72H+xYRhRf2uzM5NHtd+VsPhGfUFTOjmMk1zEynuBEL0k9Z91alIJw/jQ==",
+  "dgSpecHash": "8CwL44TKVDbg9T/aN2Rgy3DrxnQvVp6tFZf8wtEclI/ymkE/kUsA0+T0dxQJt0r4G+A6EnVEH2SIMdGGmhO9Hg==",
   "success": true,
   "projectFilePath": "/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Consola/Prueba.App.Consola.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,8 @@
     "/Users/santiagoviana/.nuget/packages/mongodb.libmongocrypt/1.3.0/mongodb.libmongocrypt.1.3.0.nupkg.sha512",
     "/Users/santiagoviana/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
     "/Users/santiagoviana/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
-    "/Users/santiagoviana/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "/Users/santiagoviana/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/santiagoviana/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.13/microsoft.netcore.app.host.osx-x64.5.0.13.nupkg.sha512"
   ],
   "logs": []
 }
