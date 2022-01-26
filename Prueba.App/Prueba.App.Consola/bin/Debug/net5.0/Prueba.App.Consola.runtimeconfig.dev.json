@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/santiagoviana/.dotnet/store/|arch|/|tfm|",
+      "/Users/santiagoviana/.nuget/packages"
+    ]
+  }
+}

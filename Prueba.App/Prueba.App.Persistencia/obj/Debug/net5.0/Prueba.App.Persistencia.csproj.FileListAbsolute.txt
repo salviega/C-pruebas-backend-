@@ -1,0 +1,15 @@
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/bin/Debug/net5.0/Prueba.App.Persistencia.deps.json
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/bin/Debug/net5.0/Prueba.App.Persistencia.dll
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/bin/Debug/net5.0/ref/Prueba.App.Persistencia.dll
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/bin/Debug/net5.0/Prueba.App.Persistencia.pdb
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/obj/Debug/net5.0/Prueba.App.Persistencia.csproj.AssemblyReference.cache
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/obj/Debug/net5.0/Prueba.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/obj/Debug/net5.0/Prueba.App.Persistencia.AssemblyInfoInputs.cache
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/obj/Debug/net5.0/Prueba.App.Persistencia.AssemblyInfo.cs
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/obj/Debug/net5.0/Prueba.App.Persistencia.csproj.CoreCompileInputs.cache
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/obj/Debug/net5.0/Prueba.App.Persistencia.dll
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/obj/Debug/net5.0/ref/Prueba.App.Persistencia.dll
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/obj/Debug/net5.0/Prueba.App.Persistencia.pdb
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/bin/Debug/net5.0/Prueba.App.Dominio.dll
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/bin/Debug/net5.0/Prueba.App.Dominio.pdb
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Persistencia/obj/Debug/net5.0/Prueba.App.Persistencia.csproj.CopyComplete

@@ -1,0 +1,12 @@
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/bin/Debug/net5.0/Prueba.App.Dominio.deps.json
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/bin/Debug/net5.0/Prueba.App.Dominio.dll
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/bin/Debug/net5.0/ref/Prueba.App.Dominio.dll
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/bin/Debug/net5.0/Prueba.App.Dominio.pdb
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/obj/Debug/net5.0/Prueba.App.Dominio.csproj.AssemblyReference.cache
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/obj/Debug/net5.0/Prueba.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/obj/Debug/net5.0/Prueba.App.Dominio.AssemblyInfoInputs.cache
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/obj/Debug/net5.0/Prueba.App.Dominio.AssemblyInfo.cs
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/obj/Debug/net5.0/Prueba.App.Dominio.csproj.CoreCompileInputs.cache
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/obj/Debug/net5.0/Prueba.App.Dominio.dll
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/obj/Debug/net5.0/ref/Prueba.App.Dominio.dll
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Dominio/obj/Debug/net5.0/Prueba.App.Dominio.pdb
