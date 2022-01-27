@@ -64,6 +64,7 @@ namespace Prueba.App.Consola
             Console.WriteLine("Vamos a jugar «quien quiere ser millonario» \n");
             Console.WriteLine("Por favor ingresa tus datos personales \n");
             Thread.Sleep(1000);
+            */
 
             Participante Participante = new Participante();
 
@@ -92,7 +93,7 @@ namespace Prueba.App.Consola
                 }
             }
 
-            RepositorioParticipante Almacenamiento = new RepositorioParticipante(new Persistencia.AppContext());
+            /*RepositorioParticipante Almacenamiento = new RepositorioParticipante(new Persistencia.AppContext());
             Participante ParticipanteValido = ((IRepositorioParticipante)Almacenamiento).GetParticipante(Participante.Document);
             if (ParticipanteValido != null)
             {
@@ -101,8 +102,8 @@ namespace Prueba.App.Consola
                 System.Environment.Exit(0);
 
             }
-            ((IRepositorioParticipante)Almacenamiento).AddParticipante(Participante);
-            */
+            ((IRepositorioParticipante)Almacenamiento).AddParticipante(Participante);*/
+            
             
             // CRUD en MongoDB atlas
             
@@ -116,7 +117,11 @@ namespace Prueba.App.Consola
             ((IRepositorioParticipante)Almacenamiento).GetParticipante(Documento);*/
 
             BolsaPreguntas Bolsa = new BolsaPreguntas();
-            Bolsa.categorias(1);
+            Participante = Bolsa.categorias(1, Participante);
+            Participante = Bolsa.categorias(2, Participante);
+            
+            Console.WriteLine(Participante.Answer);
+            Console.WriteLine(Participante.Money);
         }
     }
 }

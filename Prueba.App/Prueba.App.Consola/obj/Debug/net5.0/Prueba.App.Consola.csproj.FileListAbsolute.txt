@@ -34,4 +34,5 @@
 /Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Consola/bin/Debug/net5.0/runtimes/win/native/mongocrypt.dll
 /Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Consola/bin/Debug/net5.0/Prueba.App.Persistencia.dll
 /Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Consola/bin/Debug/net5.0/Prueba.App.Persistencia.pdb
-/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Consola/bin/Debug/net5.0/Prueba.App.Consola
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Consola/bin/Debug/net5.0/Npgsql.dll
+/Users/santiagoviana/_Summit/Prueba.App/Prueba.App.Consola/bin/Debug/net5.0/System.Runtime.CompilerServices.Unsafe.dll
