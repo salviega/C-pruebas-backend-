@@ -16,6 +16,77 @@ namespace Prueba.App.Consola
             Console.Write(prompt);
             return Console.ReadLine();
         }
+
+        public static void NumeroOrdenado(int Numero)
+        {
+            var Cadena = Numero.ToString();
+            List<char> ListaNumeroChar = new List<char>();
+            List<int> ListaNumeroInt = new List<int>();
+            int Total = 0;
+            
+            foreach (var cad in Cadena)
+            {
+                ListaNumeroChar.Add(cad);
+            }
+            
+            foreach (var item in ListaNumeroChar)
+                {
+                    String NumeritoString = item.ToString();
+                    int NumeritoInt = Convert.ToInt32(NumeritoString);
+                    ListaNumeroInt.Add(NumeritoInt);
+                    Total = Total + NumeritoInt;
+                } 
+
+            var ListaNumeroIntOrganizado = ListaNumeroInt.OrderByDescending(i => i);
+            Console.WriteLine(Total);
+            List<String> ListaNumeroIntOrganizadoString = new List<String>();
+            foreach (var item in ListaNumeroIntOrganizado)
+            {
+                ListaNumeroIntOrganizadoString.Add(item.ToString());
+            }
+            String Seguido = "";
+            foreach (var item in ListaNumeroIntOrganizadoString)
+            {
+                Seguido = Seguido + item;
+            }
+            Console.WriteLine(Seguido);
+        } 
+        public static void PalabraOrdenada(String Palabra)
+        {
+            List<String> ListaLetra = new List<String>();
+            foreach (var item in Palabra)
+            {
+                ListaLetra.Add(item.ToString());
+            }
+            
+            ListaLetra.Reverse();
+            String Seguido = "";
+            foreach (var item in ListaLetra)
+            {
+                Seguido = Seguido + item;
+            }
+            
+            Console.WriteLine(Seguido);
+            int vocal = 0;
+            int con = 0;
+            foreach (var letra in Seguido)
+            {
+                if (String.Equals(letra, 'a') || String.Equals(letra, 'e') || String.Equals(letra, 'i') || String.Equals(letra, 'o') || String.Equals(letra, 'u'))
+                {
+                    vocal = vocal + 1;
+                }
+                else
+                {
+                    con = con + 1;
+                }
+            }
+            
+            Console.WriteLine(vocal);
+            Console.WriteLine(con);
+
+
+        }
+
         static void Main(string[] args)
         {
             /*
@@ -138,8 +209,10 @@ namespace Prueba.App.Consola
             
             // SQL PostgreSQL
 
+            /*
             AppContext2 conn = new AppContext2();
             NpgsqlConnection bd = conn.Connection();
+            */
             
             /* Create table
             NpgsqlCommand cmd = new NpgsqlCommand("CREATE TABLE Persons(" +
@@ -158,12 +231,29 @@ namespace Prueba.App.Consola
             bd.Close();
             */
 
-            NpgsqlCommand cmd = new NpgsqlCommand("ALTER TABLE Persons \n" +
+            /*NpgsqlCommand cmd = new NpgsqlCommand("ALTER TABLE Persons \n" +
             "ADD PRIMARY KEY (personid)", bd); 
             cmd.ExecuteNonQuery();
-            bd.Close();
+            bd.Close();*/
 
+            bool x = true;
+            while(x)
+            {
+                try
+                {
+                    String Numero = GetStringFromUser("Por favor ingresa un número: ");
+                    int Dato = Convert.ToInt32(Numero); 
+                    NumeroOrdenado(Dato); 
 
+                    String Palabra = GetStringFromUser("Por favor ingresa una palabra: ");
+                    PalabraOrdenada(Palabra);
+                    x = false;  
+                }
+                catch
+                {
+                    Console.WriteLine("Hubo un error, vuelva a ingresar el dato numerico");
+                }
+            }
         }
     }
 }

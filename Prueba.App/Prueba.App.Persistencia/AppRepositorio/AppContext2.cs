@@ -12,7 +12,7 @@ namespace Prueba.App.Persistencia
         static String Host = "localhost";
         static String DbName = "Prueba";
         static String Username = "postgres";
-        static String Password = "XXX";
+        static String Password = "6y2w4r3e3e1q9o";
         static String Port = "5432";
 
         String Cadena = "server="+Host+";"+"port="+Port+";"+"user id="+Username+";"+"password="+Password+";"+"database="+DbName+";";
