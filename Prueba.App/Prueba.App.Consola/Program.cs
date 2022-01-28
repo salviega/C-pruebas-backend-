@@ -56,15 +56,15 @@ namespace Prueba.App.Consola
         
             i = (int) d; //Casteo conversion implicita de una unidad menor a mayor
             i = Convert.ToInt32(d); //Conversion, alternativa
-            i = Convert.ToInt32(cadena); // true es 1, false es 0  */
-            /*
+            i = Convert.ToInt32(cadena); // true es 1, false es 0  
+            */
+            
             Console.WriteLine(" \n");
             Console.WriteLine("¡Bienvenido! \n");
             Thread.Sleep(1000); // 1000 milisegundos = 1 segundos
             Console.WriteLine("Vamos a jugar «quien quiere ser millonario» \n");
             Console.WriteLine("Por favor ingresa tus datos personales \n");
             Thread.Sleep(1000);
-            */
 
             Participante Participante = new Participante();
 
@@ -93,35 +93,43 @@ namespace Prueba.App.Consola
                 }
             }
 
-            /*RepositorioParticipante Almacenamiento = new RepositorioParticipante(new Persistencia.AppContext());
+            RepositorioParticipante Almacenamiento = new RepositorioParticipante(new Persistencia.AppContext());
             Participante ParticipanteValido = ((IRepositorioParticipante)Almacenamiento).GetParticipante(Participante.Document);
-            if (ParticipanteValido != null)
+            if (ParticipanteValido.Document == Participante.Document)
             {
                 Console.WriteLine("Usted se encuentra registrado. No puede volver a jugar \n");
+                Console.WriteLine(ParticipanteValido.Name + " " + ParticipanteValido.LastName);
                 Thread.Sleep(1000);
                 System.Environment.Exit(0);
 
             }
-            ((IRepositorioParticipante)Almacenamiento).AddParticipante(Participante);*/
-            
+            else
+            {
+                Console.WriteLine("¡Perfecto! " + Participante.Name + " " + Participante.LastName + " es hora de jugar \n");
+                ((IRepositorioParticipante)Almacenamiento).AddParticipante(Participante);
+            }
             
             // CRUD en MongoDB atlas
             
-            /*((IRepositorioParticipante)Almacenamiento).AddParticipante(Participante);
+            /*
+            ((IRepositorioParticipante)Almacenamiento).AddParticipante(Participante);
             ((IRepositorioParticipante)Almacenamiento).GetAllParticipantes();
             int Documento = Convert.ToInt32(Console.ReadLine());
             ((IRepositorioParticipante)Almacenamiento).UpdateParticipante(Documento);
             Documento = Convert.ToInt32(Console.ReadLine());
             ((IRepositorioParticipante)Almacenamiento).DeleteParticipante(Documento);
             Documento = Convert.ToInt32(Console.ReadLine());
-            ((IRepositorioParticipante)Almacenamiento).GetParticipante(Documento);*/
+            ((IRepositorioParticipante)Almacenamiento).GetParticipante(Documento);
+            */
 
             BolsaPreguntas Bolsa = new BolsaPreguntas();
             Participante = Bolsa.categorias(1, Participante);
-            Participante = Bolsa.categorias(2, Participante);
-            
-            Console.WriteLine(Participante.Answer);
-            Console.WriteLine(Participante.Money);
+            Console.WriteLine("Nivel alcanzado: " + Participante.Answer);
+            Console.WriteLine("Dinero actual: {0:C}", Participante.Money);
+            //Participante = Bolsa.categorias(2, Participante);
+            //Participante = Bolsa.categorias(3, Participante);
+            //Participante = Bolsa.categorias(4, Participante);
+            //Participante = Bolsa.categorias(5, Participante);
         }
     }
 }

@@ -24,35 +24,35 @@ namespace Prueba.App.Dominio
             this.OpcionesRespuestasGeografia = OpcionesRespuestasGeografia;
 
             List<List<String>> OpcionesRespuestasEntretenimiento = new List<List<String>>();
-            OpcionesRespuestasGeografia.Add(new List<String> {"Mogui","Winnie pooh","Barney","Yogui"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Brad Pitt","Clint Eastwood","Leonardo Dicaprio","Jason Momoa"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Gabriel Marquez","Luchino Visconti","Federico Fellini","Pier Pasolini"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Rosalia","Shakira","Becky G","Paulina Rubio"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Guillo", "Bolsena", "Mudito","Gruñon"});
+            OpcionesRespuestasEntretenimiento.Add(new List<String> {"Mogui","Winnie pooh","Barney","Yogui"});
+            OpcionesRespuestasEntretenimiento.Add(new List<String> {"Brad Pitt","Clint Eastwood","Leonardo Dicaprio","Jason Momoa"});
+            OpcionesRespuestasEntretenimiento.Add(new List<String> {"Gabriel Marquez","Luchino Visconti","Federico Fellini","Pier Pasolini"});
+            OpcionesRespuestasEntretenimiento.Add(new List<String> {"Rosalia","Shakira","Becky G","Paulina Rubio"});
+            OpcionesRespuestasEntretenimiento.Add(new List<String> {"Guillo", "Bolsena", "Mudito","Gruñon"});
             this.OpcionesRespuestasEntretenimiento = OpcionesRespuestasEntretenimiento;
 
             List<List<String>> OpcionesRespuestasHistoria = new List<List<String>>();
-            OpcionesRespuestasGeografia.Add(new List<String> {"Catalina de Aragón","Catalina la grande","Julieta","Cleopatra"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Francia","Italia","Inglaterra","España"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Té","Opio","Waterloo","Boston"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Venecia","Torino","Bologña","Turin"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Julio Cesar", "Alejandro", "Artemio","Tiberio"});
+            OpcionesRespuestasHistoria.Add(new List<String> {"Catalina de Aragón","Catalina la grande","Julieta","Cleopatra"});
+            OpcionesRespuestasHistoria.Add(new List<String> {"Francia","Italia","Inglaterra","España"});
+            OpcionesRespuestasHistoria.Add(new List<String> {"Té","Opio","Waterloo","Boston"});
+            OpcionesRespuestasHistoria.Add(new List<String> {"Venecia","Torino","Bologña","Turin"});
+            OpcionesRespuestasHistoria.Add(new List<String> {"Julio Cesar", "Alejandro", "Artemio","Tiberio"});
             this.OpcionesRespuestasHistoria = OpcionesRespuestasHistoria;
 
             List<List<String>> OpcionesRespuestasDeportes = new List<List<String>>();
-            OpcionesRespuestasGeografia.Add(new List<String> {"Torre","Peón","Alfíl","Caballo"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Judistas","Judokas","Judenses","judos"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Baloncesto","Fútbol","Americano","Ciclismo"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Veintiuno","Ventidos","Veinte","Dicinueve"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Cubalibre", "Sangría", "Verano","Cabeza de jabalí"});
+            OpcionesRespuestasDeportes.Add(new List<String> {"Torre","Peón","Alfíl","Caballo"});
+            OpcionesRespuestasDeportes.Add(new List<String> {"Judistas","Judokas","Judenses","judos"});
+            OpcionesRespuestasDeportes.Add(new List<String> {"Baloncesto","Fútbol","Americano","Ciclismo"});
+            OpcionesRespuestasDeportes.Add(new List<String> {"Veintiuno","Ventidos","Veinte","Dicinueve"});
+            OpcionesRespuestasDeportes.Add(new List<String> {"Cubalibre", "Sangría", "Verano","Cabeza de jabalí"});
             this.OpcionesRespuestasDeportes = OpcionesRespuestasDeportes;
 
             List<List<String>> OpcionesRespuestasCiencia = new List<List<String>>();
-            OpcionesRespuestasGeografia.Add(new List<String> {"Sinapticas","Neuronas","Axiomas","Espermatozoide"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Pila","Bombilla","Bateria","Electricidad"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Albatros","Paloma","Grulla","Monje"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Julio","Diciembre","Agosto","Septiembre"});
-            OpcionesRespuestasGeografia.Add(new List<String> {"Codos", "Planta del pie", "Espalda","Cara"});
+            OpcionesRespuestasCiencia.Add(new List<String> {"Sinapticas","Neuronas","Axiomas","Espermatozoide"});
+            OpcionesRespuestasCiencia.Add(new List<String> {"Pila","Bombilla","Bateria","Electricidad"});
+            OpcionesRespuestasCiencia.Add(new List<String> {"Albatros","Paloma","Grulla","Monje"});
+            OpcionesRespuestasCiencia.Add(new List<String> {"Julio","Diciembre","Agosto","Septiembre"});
+            OpcionesRespuestasCiencia.Add(new List<String> {"Codos", "Planta del pie", "Espalda","Cara"});
             this.OpcionesRespuestasCiencia = OpcionesRespuestasCiencia;
         }
     }

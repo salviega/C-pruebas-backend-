@@ -26,7 +26,7 @@ namespace Prueba.App.Persistencia
             var Database = _AppContext.Client.GetDatabase("qqsm_csharp");
             var Collection = Database.GetCollection<Participante>("participantes");
             Collection.InsertOne(Participante);
-            Console.WriteLine("Participante almacenado \n");
+            
         }
         IEnumerable<Participante> IRepositorioParticipante.GetAllParticipantes()
         {
@@ -128,13 +128,13 @@ namespace Prueba.App.Persistencia
                 {
                     ParticipanteEncontrado = _Participante;
                 }
-                Console.WriteLine("Participante encontrado: " + ParticipanteEncontrado.Name + " " + ParticipanteEncontrado.LastName + "\n");
+
                 return ParticipanteEncontrado;
             }
             else
             {
-                
-                Console.WriteLine("El participante no fue encontrado: \n");
+        
+                Console.WriteLine("El participante no fue encontrado \n");
                 return null;
             }
         }
