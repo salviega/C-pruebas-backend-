@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Npgsql;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
@@ -59,6 +60,7 @@ namespace Prueba.App.Consola
             i = Convert.ToInt32(cadena); // true es 1, false es 0  
             */
             
+            /*
             Console.WriteLine(" \n");
             Console.WriteLine("¡Bienvenido! \n");
             Thread.Sleep(1000); // 1000 milisegundos = 1 segundos
@@ -108,6 +110,7 @@ namespace Prueba.App.Consola
                 Console.WriteLine("¡Perfecto! " + Participante.Name + " " + Participante.LastName + " es hora de jugar \n");
                 ((IRepositorioParticipante)Almacenamiento).AddParticipante(Participante);
             }
+            */
             
             // CRUD en MongoDB atlas
             
@@ -122,6 +125,7 @@ namespace Prueba.App.Consola
             ((IRepositorioParticipante)Almacenamiento).GetParticipante(Documento);
             */
 
+            /*
             BolsaPreguntas Bolsa = new BolsaPreguntas();
             Participante = Bolsa.categorias(1, Participante);
             Console.WriteLine("Nivel alcanzado: " + Participante.Answer);
@@ -130,6 +134,36 @@ namespace Prueba.App.Consola
             //Participante = Bolsa.categorias(3, Participante);
             //Participante = Bolsa.categorias(4, Participante);
             //Participante = Bolsa.categorias(5, Participante);
+            */
+            
+            // SQL PostgreSQL
+
+            AppContext2 conn = new AppContext2();
+            NpgsqlConnection bd = conn.Connection();
+            
+            /* Create table
+            NpgsqlCommand cmd = new NpgsqlCommand("CREATE TABLE Persons(" +
+            "PersonID int," +
+            "Name varchar(255)," +
+            "LastName varchar(255)," +
+            "Document int);", bd); 
+            cmd.ExecuteNonQuery();
+            bd.Close();
+            */
+
+            /* RENAME COLUMN
+            NpgsqlCommand cmd = new NpgsqlCommand("ALTER TABLE Persons \n" +
+            "RENAME COLUMN personIDD TO personID", bd); 
+            cmd.ExecuteNonQuery();
+            bd.Close();
+            */
+
+            NpgsqlCommand cmd = new NpgsqlCommand("ALTER TABLE Persons \n" +
+            "ADD PRIMARY KEY (personid)", bd); 
+            cmd.ExecuteNonQuery();
+            bd.Close();
+
+
         }
     }
 }
